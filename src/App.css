@@ -1,38 +1,205 @@
-.App {
-  text-align: center;
-}
+@import "~antd/dist/antd.css";
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sidebar {
+  background: #fcfbff;
+  margin-left: 10px;
+  width: 300px;
+  /* margin-top: 5px; */
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu-item {
+  width: 100%;
+  display: block;
+  padding: 8px 16px;
+  text-align: left;
+  white-space: normal;
+  float: none;
+  outline: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.dashboard {
+  margin-left: 310px;
+}
+.logo {
+  margin-right: 20px;
+}
+.menu-text {
+  display: inline;
+  font-family: "Roboto", sans-serif;
+  size: 18px;
+  line-height: 21.09px;
+  opacity: 0.6;
+}
+.menu-item:hover {
+  color: #673ab7;
+  border-left: 7px solid #673ab7;
+  transform: none;
+}
+.menu-active {
+  color: #673ab7;
+  border-left: 7px solid #673ab7;
+  background: #e1d8f1;
+  font-weight: 600;
+}
+.top-profile {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 18px;
+}
+.top-profile .notification {
+  margin-right: 11px;
+}
+.top-profile:first-child {
+  margin-right: 38px;
+}
+.pic-name {
+  margin-right: 32px;
+}
+
+.pic-name h2 {
+  display: inline;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 18.75px;
+  font-family: "Roboto", sans-serif;
+}
+.pic-name img {
+  margin-right: 17.5px;
+}
+.tab-container {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  height: 35px;
+}
+.sync-data {
+  margin-left: 350px;
+}
+
+.vertical-line {
+  border-left: 1.5px solid #ccc;
+}
+.icon-option {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.tab-icons {
+  width: 36px;
+  height: 36px;
+  background-color: white;
+  margin-top: 4px;
+  margin-right: 7px;
+}
+.icon-option {
+  height: 50px;
+}
+.icon-option h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: -10px 0;
+}
+.tab-button {
+  border: none;
+  background-color: white;
+}
+.bottom-line {
+  width: 100%;
+}
+.tab-button-container {
+  height: 50px;
+}
+.tab-button-container img {
+  margin-bottom: 12px;
+}
+.permisson-content {
+  margin-top: 25px;
+  margin-left: 80px;
+}
+.per-btn-container {
+  margin-bottom: 30px;
+}
+.per-btn-container img {
+  margin-right: 5px;
+}
+.per-btn-container button {
+  margin-right: 33px;
+}
+.per-btn-container .delete-icon {
+  margin-left: 20px;
+}
+.management-team {
+  cursor: pointer;
+}
+.management-team:hover {
+  text-decoration: underline;
+  opacity: 0.6;
+}
+.new-btn-container {
+  display: flex;
+
+  align-items: center;
+}
+.new-btn-container img {
+  width: 24px;
+  height: 24px;
+}
+.new-btn-container h3 {
+  font-weight: 800;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: #673ab7;
+  margin-top: 6px;
+  margin-right: 30px;
+}
+.new-btn-container .new-arrow {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.new-btn-container .new-arrow:hover {
+  color: #673ab7;
+}
+.management-tab {
+  margin-left: 80px;
+}
+.per-tab-inside {
+  margin-left: 50px;
+}
+.access-control-table {
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.access-control {
+  display: flex;
+  flex-direction: column;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.access-control h3 {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.bidding-heading {
+  font-size: 19px;
+  font-weight: 500;
+}
+.bidding-heading p {
+  display: inline-block;
+  margin: none;
+}
+.permissions-control {
+  display: flex;
+  flex-direction: column;
+}
+.bidding-controls {
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+  margin-top: 35px;
+}
+.check-p {
+  margin-bottom: 5px;
+  margin-left: 12px;
+}
+.long-line {
+  margin-right: 50px;
 }
