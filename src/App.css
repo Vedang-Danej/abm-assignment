@@ -209,3 +209,7 @@
   width: 120px;
   text-align: left;
 }
+.increase-width h2 {
+  width: 150px;
+  text-align: center;
+}
