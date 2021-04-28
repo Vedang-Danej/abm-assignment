@@ -37,8 +37,7 @@ const AccessControlTable = () => {
       summary: <p>View | Create | Edit | Delete</p>,
       lastupdated: "1 min ago",
       switch: <Switch defaultChecked />,
-      description:
-        "My name is John Brown, I am 32 years old, living in New York No. 1 Lake Park.",
+      description: "Budget Content",
     },
     {
       key: 2,
@@ -85,8 +84,7 @@ const AccessControlTable = () => {
       summary: <p>View | Create</p>,
       lastupdated: "1 min ago",
       switch: <Switch defaultChecked={true} />,
-      description:
-        "My name is John Brown, I am 32 years old, living in New York No. 1 Lake Park.",
+      description: "Vendor Portal Content",
     },
     {
       key: 4,
@@ -109,8 +107,7 @@ const AccessControlTable = () => {
       summary: <p>View | Create</p>,
       lastupdated: "1 min ago",
       switch: <Switch defaultChecked={true} />,
-      description:
-        "My name is John Brown, I am 32 years old, living in New York No. 1 Lake Park.",
+      description: "Purchase Order/Work Order",
     },
     {
       key: 5,
@@ -133,12 +130,11 @@ const AccessControlTable = () => {
       summary: <p>View | Create | Edit | Delete</p>,
       lastupdated: "1 min ago",
       switch: <Switch defaultChecked={true} />,
-      description:
-        "My name is John Brown, I am 32 years old, living in New York No. 1 Lake Park.",
+      description: "Organisational Profile Content",
     },
     {
       key: 6,
-      name: "Permissions & Access Control",
+      name: "Organisational Profile",
       accesslevel: (
         <Button
           disabled
@@ -158,8 +154,7 @@ const AccessControlTable = () => {
       summary: <p></p>,
       lastupdated: "1 min ago",
       switch: <Switch defaultChecked={false} />,
-      description:
-        "My name is John Brown, I am 32 years old, living in New York No. 1 Lake Park.",
+      description: "Organisational Profile Content",
     },
   ];
   return (
