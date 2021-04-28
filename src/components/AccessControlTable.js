@@ -134,7 +134,7 @@ const AccessControlTable = () => {
     },
     {
       key: 6,
-      name: "Organisational Profile",
+      name: "Permission and access control",
       accesslevel: (
         <Button
           disabled
@@ -154,7 +154,7 @@ const AccessControlTable = () => {
       summary: <p></p>,
       lastupdated: "1 min ago",
       switch: <Switch defaultChecked={false} />,
-      description: "Permission and access control",
+      description: "Permission and access control content",
     },
   ];
   return (
