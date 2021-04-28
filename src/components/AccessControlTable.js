@@ -154,7 +154,7 @@ const AccessControlTable = () => {
       summary: <p></p>,
       lastupdated: "1 min ago",
       switch: <Switch defaultChecked={false} />,
-      description: "Organisational Profile Content",
+      description: "Permission and access control",
     },
   ];
   return (
