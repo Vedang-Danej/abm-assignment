@@ -117,6 +117,7 @@
 .permisson-content {
   margin-top: 25px;
   margin-left: 80px;
+  margin-right: 80px;
 }
 .per-btn-container {
   margin-bottom: 30px;
@@ -212,4 +213,12 @@
 .increase-width h2 {
   width: 150px;
   text-align: center;
+}
+.eye-img {
+  display: block;
+  margin: auto;
+}
+.switch-img {
+  display: block;
+  margin: auto;
 }

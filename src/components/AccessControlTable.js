@@ -36,7 +36,7 @@ const AccessControlTable = () => {
       ),
       summary: <p>View | Create | Edit | Delete</p>,
       lastupdated: "1 min ago",
-      switch: <Switch defaultChecked />,
+      switch: <Switch defaultChecked className="switch-img" />,
       description: "Budget Content",
     },
     {
@@ -60,7 +60,7 @@ const AccessControlTable = () => {
       ),
       summary: <p></p>,
       lastupdated: "1 min ago",
-      switch: <Switch defaultChecked={false} />,
+      switch: <Switch defaultChecked={false} className="switch-img" />,
       description: <BiddingControls />,
     },
     {
@@ -83,7 +83,7 @@ const AccessControlTable = () => {
       ),
       summary: <p>View | Create</p>,
       lastupdated: "1 min ago",
-      switch: <Switch defaultChecked={true} />,
+      switch: <Switch defaultChecked={true} className="switch-img" />,
       description: "Vendor Portal Content",
     },
     {
@@ -106,7 +106,7 @@ const AccessControlTable = () => {
       ),
       summary: <p>View | Create</p>,
       lastupdated: "1 min ago",
-      switch: <Switch defaultChecked={true} />,
+      switch: <Switch defaultChecked={true} className="switch-img" />,
       description: "Purchase Order/Work Order",
     },
     {
@@ -129,7 +129,7 @@ const AccessControlTable = () => {
       ),
       summary: <p>View | Create | Edit | Delete</p>,
       lastupdated: "1 min ago",
-      switch: <Switch defaultChecked={true} />,
+      switch: <Switch defaultChecked={true} className="switch-img" />,
       description: "Organisational Profile Content",
     },
     {
@@ -153,7 +153,7 @@ const AccessControlTable = () => {
       ),
       summary: <p></p>,
       lastupdated: "1 min ago",
-      switch: <Switch defaultChecked={false} />,
+      switch: <Switch defaultChecked={false} className="switch-img" />,
       description: "Permission and access control content",
     },
   ];

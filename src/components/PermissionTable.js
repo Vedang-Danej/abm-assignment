@@ -48,7 +48,7 @@ const PermissionTable = (props) => {
       ),
       members: 4,
       lastupdated: "1 min ago",
-      icon: <img src={eye} />,
+      icon: <img src={eye} className="eye-img" />,
     },
     {
       key: "2",
@@ -70,7 +70,7 @@ const PermissionTable = (props) => {
       ),
       members: 8,
       lastupdated: "1 min ago",
-      icon: <img src={eye} />,
+      icon: <img src={eye} className="eye-img" />,
     },
     {
       key: "3",
@@ -92,7 +92,7 @@ const PermissionTable = (props) => {
       ),
       members: 16,
       lastupdated: "1 min ago",
-      icon: <img src={eye} />,
+      icon: <img src={eye} className="eye-img" />,
     },
     {
       key: "4",
@@ -114,7 +114,7 @@ const PermissionTable = (props) => {
       ),
       members: 4,
       lastupdated: "1 min ago",
-      icon: <img src={eye} />,
+      icon: <img src={eye} className="eye-img" />,
     },
     {
       key: "5",
@@ -136,7 +136,7 @@ const PermissionTable = (props) => {
       ),
       members: 1,
       lastupdated: "1 min ago",
-      icon: <img src={eye} />,
+      icon: <img src={eye} className="eye-img" />,
     },
   ];
   const rowSelection = {
