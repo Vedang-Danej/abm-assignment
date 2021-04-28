@@ -69,12 +69,13 @@
 .tab-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-top: 50px;
   height: 35px;
 }
-.sync-data {
-  margin-left: 350px;
-}
+/* .sync-data {
+  margin-left: 80%;
+} */
 
 .vertical-line {
   border-left: 1.5px solid #ccc;
@@ -107,6 +108,7 @@
   width: 100%;
 }
 .tab-button-container {
+  display: flex;
   height: 50px;
 }
 .tab-button-container img {
@@ -202,4 +204,8 @@
 }
 .long-line {
   margin-right: 50px;
+}
+.icon-option h2 {
+  width: 120px;
+  text-align: left;
 }
